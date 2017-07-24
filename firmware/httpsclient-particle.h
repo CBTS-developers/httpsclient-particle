@@ -26,6 +26,7 @@ int httpsClientConnection(unsigned char * requestContent, uint32 msg_len,
 			  const char * msg);
 void httpsclientCleanUp();
 void httpsclientSetPath(const char * path);
+unsigned char* getData(); 
 
 #ifdef __cplusplus
 }
